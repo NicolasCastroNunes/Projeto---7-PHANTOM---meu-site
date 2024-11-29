@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    
+    background-image: url('../image/background2.jpg');
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#corTexto{
+    background-color: rgb(32, 31, 31);
+    box-shadow: 10px 10px 10px white;
+    padding: 20px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+a{
+    position: relative;
+    margin: 2px;
+    color: rgba(255, 255, 255, 0.425);
+    text-decoration: none;
+}
+
+
+
+nav a::after{
+
+    content: "";
+    width: 0%;
+    height:1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+
+    transform: rotate3d(1.1) ;
+    background-color:inherit;
+    width: 100%;
+}
+
+
+#Titulo1 {
+
+    margin-left: 56vh;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(54, 56, 56);
+    padding: 20px;
+    border-radius: 25px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+#phan{
+    margin-left: 20vh;
+}
+
+h1 {
+    color:  #FF6347;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    transition: 0.6s ease-in-out;
+    box-shadow: 10px 10px 10px black;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    width: 50px;
+    background-color: aquamarine;
+}
+
+.nav{
+    transition: 0.6s ease-in-out;
+    
+    align-items: end;
+    text-align: right;
+    gap: 50px;
+    display: flex;
+}
+
+.jogo img{
+    transition: 0.6s ease-in-out;
+    
+    gap: 100px;
+    width: 60%;
+}
+
+
+img{
+    transition: 0.6s ease-in-out;
+    background-color:inherit;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    gap: 200px;
+    border-radius: 20px;
+    height: 150px;
+    width: 350px;
+    align-items: center;
+   
+}
+
+img:hover{
+    transform: scale(1.1);
+    background-color:inherit;
+}
+
+div.jogo{
+    transition: 0.6s ease-in-out;
+    
+   
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+header, footer{
+    transition: 0.6s ease-in-out;
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    transition: 0.6s ease-in-out;
+    
+    gap: 100px;
+    margin: 50px;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+    margin: 15px;
+}
+
+h3{
+    transition: 0.6s ease-in-out;
+    
+    height: 30px;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    transition: 0.6s ease-in-out;
+    
+    height: 30px;
+    text-align: right;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+#catalogo{
+    transition: 0.6s ease-in-out;
+    
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    box-shadow: 10px 10px 10px black;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    color: rgb(61, 59, 59);
+    background-color: rgb(115, 119, 119);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+
+
+button {
+    transition: 0.6s ease-in-out;
+    
+    border-bottom-width: 2px;
+    background-color:inherit;
+    height: 35px;
+    width: 70px;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color:inherit;
+}
+.container {
+    transition: 0.6s ease-in-out;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+}
+
+
+
