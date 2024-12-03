@@ -76,7 +76,12 @@ nav a:hover::after{
 #phan{
     margin-left: 20vh;
 }
-
+h2{
+    color:  #FF6347;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
 h1 {
     color:  #FF6347;
     text-align: center;
