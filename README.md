@@ -21,7 +21,7 @@ Nosso objetivo com esse aplicativo é
 
 4. Construção de comunidade e engajamento
 
-7. Aprimorar a experiência do usuário
+5. Aprimorar a experiência do usuário
 
 
 📅 PRAZO
